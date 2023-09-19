@@ -12,6 +12,9 @@ i18n
         debug: __IS_DEV__,
         interpolation: {
             escapeValue: false,
+        },
+        backend: {
+            loadPath: '/locales/{{lng}}/{{ns}}.json',
         }
     });
 
